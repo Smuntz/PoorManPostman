@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/post-man.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "PoorMansPostman",
+          "members": [
+            {
+              "kind": "method",
+              "name": "getMetaConfig",
+              "static": true
+            },
+            {
+              "kind": "method",
+              "name": "executeCall"
+            },
+            {
+              "kind": "field",
+              "name": "url",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "url"
+            },
+            {
+              "kind": "field",
+              "name": "method",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "method"
+            },
+            {
+              "kind": "field",
+              "name": "headersJson",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "headersJson"
+            },
+            {
+              "kind": "field",
+              "name": "paramsJson",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "paramsJson"
+            },
+            {
+              "kind": "field",
+              "name": "requestBody",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "requestBody"
+            },
+            {
+              "kind": "field",
+              "name": "apiResponse",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "apiResponse"
+            }
+          ],
+          "events": [
+            {
+              "name": "ntx-value-change",
+              "type": {
+                "text": "CustomEvent"
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "url",
+              "type": {
+                "text": "string"
+              },
+              "fieldName": "url"
+            },
+            {
+              "name": "method",
+              "type": {
+                "text": "string"
+              },
+              "fieldName": "method"
+            },
+            {
+              "name": "headersJson",
+              "type": {
+                "text": "string"
+              },
+              "fieldName": "headersJson"
+            },
+            {
+              "name": "paramsJson",
+              "type": {
+                "text": "string"
+              },
+              "fieldName": "paramsJson"
+            },
+            {
+              "name": "requestBody",
+              "type": {
+                "text": "string"
+              },
+              "fieldName": "requestBody"
+            },
+            {
+              "name": "apiResponse",
+              "type": {
+                "text": "string"
+              },
+              "fieldName": "apiResponse"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "poor-mans-postman",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "poor-mans-postman",
+          "declaration": {
+            "name": "PoorMansPostman",
+            "module": "src/post-man.js"
+          }
+        }
+      ]
+    }
+  ]
+}
